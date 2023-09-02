@@ -1,8 +1,6 @@
 import { Given, Then, When } from '@badeball/cypress-cucumber-preprocessor';
 import searchBox from "../../pageobject/homeSearch.js";
-//import webpack from "@cypress/webpack-preprocessor";
-
-//const { Given, When, Then } = require('cypress-cucumber-preprocessor/steps');
+import propertyDetails from '../../pageobject/propertyDetails.js';
 
 
 Given("I visit the website Property Finder bh", function () {
@@ -10,10 +8,12 @@ Given("I visit the website Property Finder bh", function () {
     cy.visit('https://www.propertyfinder.bh/')
 
 });
-When('I click on the commercial properties only checkbox', () => {
+When('I click on the commercial properties only checkbox, search, office category', () => {
     searchBox.commercialProperty();
+    searchBox.clickSearchButton();
+    searchBox.officesCategory();
 });
-// And('I click the search button', () => {
+// Then('I click the search button', () => {
 //     searchBox.clickSearchButton();
 // });
 // And('I select offices category', () => {

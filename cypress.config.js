@@ -17,5 +17,7 @@ module.exports = defineConfig({
     experimentalModifyObstructiveThirdPartyCode: true,
     defaultCommandTimeout: 10000
   },
+  video: true,
+
 });
 

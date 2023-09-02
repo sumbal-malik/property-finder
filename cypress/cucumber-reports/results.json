@@ -1,0 +1,163 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "property-finder-bh-scenarios--1.-villas,-2.-offices,-3.-property-location;1.-check-the-total-displayed-number-of-results-for-category-villas-with-price-range-more-than-or-equal-to-300,000-aed-/-yearly",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "1. Check the total displayed number of results for category Villas with price range more than or equal to 300,000 AED / yearly",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I visit the Property Finder website",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I select the property type and apply filters",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the correct total count displayed from search results api response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5827000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "property-finder-bh-scenarios--1.-villas,-2.-offices,-3.-property-location;2.-click-on-commercial-properties-only-checkbox-and-select-offices",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "2. Click on commercial properties only checkbox and select offices",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I visit the website Property Finder bh",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on the commercial properties only checkbox, search, office category",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see property details matching the API response",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6014000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "property-finder-bh-scenarios--1.-villas,-2.-offices,-3.-property-location;3.-search-for-property-by-location",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "3. Search for property by location",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I visit Property Finder bh",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I search property by Location",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see Available From should not be empty",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5629000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "property-finder-bh-scenarios--1.-villas,-2.-offices,-3.-property-location",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Property Finder bh Scenarios  1. Villas, 2. Offices, 3. Property Location",
+    "tags": [],
+    "uri": "cypress/integrations/commercial.feature"
+  }
+]
