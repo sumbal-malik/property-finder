@@ -15,3 +15,4 @@
 5. Deploy the html report to github pages:
    - Run `npm run deploy` to deploy the project to github via [Github-Pages](https://pages.github.com/)
    - Current repository deployment url can be found [here](https://sumbal-malik.github.io/property-finder/).
+<!-- Testing CI Pipeline -->
