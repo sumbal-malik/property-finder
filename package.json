@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sumbal-km.github.io/property-finder",
   "scripts": {
     "start": "cypress open",
+    "deploy": "gh-pages -d cypress/cucumber-reports/html",
     "start:headless": "cypress run --spec cypress/integrations/commercial.feature",
     "generate:report": "node cucumber-html-report.js"
   },
@@ -17,7 +19,8 @@
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
-    "cucumber-html-reporter": "^7.1.1"
+    "cucumber-html-reporter": "^7.1.1",
+    "gh-pages": "^6.0.0"
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": "cypress/integrations/step-definitions/*.js",
