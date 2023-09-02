@@ -20,6 +20,7 @@
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.5",
     "cucumber-html-reporter": "^7.1.1",
+    "cypress": "^13.1.0",
     "gh-pages": "^6.0.0"
   },
   "cypress-cucumber-preprocessor": {
