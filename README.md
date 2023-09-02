@@ -1,5 +1,6 @@
 # Property Finder - Cypress - Cucumber 
 
+### Test Summary Report can be found [here](./test-summary-report.doc)
 ### How to execute the test? 
 
 1. Clone the repository to local machine via `git clone https://github.com/sumbal-malik/property-finder`
