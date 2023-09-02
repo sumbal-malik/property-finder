@@ -6,11 +6,11 @@
 2. Open the terminal in the root directory of the project and run `npm install`, to install the dependencies for the project. 
 3. Start the project:
    - In Browser:
-      -  Run `npm run start` to start the project in GUI browser and click on <b> commercial.features</b> file to start the test. 
+      -  Run `npm run start` to start the project and executing test cases in GUI browser and click on <b> commercial.features</b> file to start the test. 
    - In headless terminal:
-       - Run `npm run start:headless` to start the project in terminal. 
+       - Run `npm run start:headless` to start the project and executing test cases in terminal . 
 4. Generate HTML Report:
-   - Run `npm run generate:report` to generate the report in html. Generated report will be found in under folder <i>`cypress/cucumber-reports/html`</i>
+   - Run `npm run generate:report` to generate the report in html. Generated report will be found under folder <i>`cypress/cucumber-reports/html`</i>
 5. Deploy the html report to github pages:
-   - Run `npm run deploy` to deploy the project the github via [Github-Pages](https://pages.github.com/)
+   - Run `npm run deploy` to deploy the project to github via [Github-Pages](https://pages.github.com/)
    - Current repository deployment url can be found [here](https://sumbal-malik.github.io/property-finder/).
