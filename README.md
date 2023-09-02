@@ -1,5 +1,7 @@
 # Property Finder - Cypress - Cucumber 
 
+### Test Execution Results in video can be found [here](./cypress//videos//commercial.feature.mp4)
+### Test HTML Report can be found [here](https://sumbal-malik.github.io/property-finder/)
 ### Test Summary Report can be found [here](./test-summary-report.pdf)
 ### How to execute the test? 
 
